@@ -124,11 +124,11 @@ int main()
 
 			printf("\nNot found.\n\n");
 
-			printf("%s\n\n", diction[-x].mean);
+			printf("%s %s\n\n", diction[-x].dan, diction[-x].fum);
 
 			printf("----\n\n");
 
-			printf("%s\n\n", diction[-x + 1].mean);
+			printf("%s %s\n\n", diction[-x + 1].dan, diction[-x + 1].fum);
 
 		}
 
